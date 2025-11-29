@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Streamlit / results
+results/
+*.db
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
