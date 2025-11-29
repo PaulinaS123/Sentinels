@@ -57,6 +57,23 @@ All role interactions occur through a single unified UI
 
 No PHI is used; all data is fictional and safe
 
+# Secure-Internal-Chatbot-Design — Streamlit Frontend
+
+## How to run
+1. python -m venv venv
+2. source venv/bin/activate
+3. pip install -r requirements.txt
+4. streamlit run app.py
+
+## Demo accounts
+- Team Physician: any username, choose role "Team Physician" at login form (demo password)
+- Other roles: Athletic Trainer, Head Coach, etc.
+
+## Features
+- Role-aware chat (Team Physician can edit injury status)
+- Query audit log (persisted to results/query_db.json)
+- Simulated MFA and role gating
+
 ## Setup & Run Instructions
 1. Clone the Repository
 git clone https://github.com/YOUR_USERNAME/Secure-Internal-Chatbot-Design.git
