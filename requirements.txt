@@ -1,9 +1,9 @@
-streamlit>=1.15.0
-pandas>=2.0
-python-dateutil>=2.8
-requests>=2.31.0
-python-jose>=3.3.0
-fastapi>=0.95.0
-uvicorn[standard]>=0.22.0
-sentence-transformers>=2.2.2
-faiss-cpu==1.7.4
+streamlit==1.32.0
+pandas==2.1.4
+python-dateutil==2.8.2
+
+python -m venv venv
+source venv/bin/activate       # mac/linux
+# .\venv\Scripts\activate      # windows
+pip install -r requirements.txt
+streamlit run YourFileName.py
