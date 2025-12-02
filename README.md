@@ -76,7 +76,6 @@ No PHI is used; all data is fictional and safe
 
 ## Setup & Run Instructions
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/Secure-Internal-Chatbot-Design.git
 cd Secure-Internal-Chatbot-Design
 
 2. Create & Activate a Virtual Environment
